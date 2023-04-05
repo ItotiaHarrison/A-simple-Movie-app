@@ -33,7 +33,7 @@ export default function Series() {
         setError(error.message);
         setLoading(false);
       });
-  }, []);
+  });
 
   const handleSearchInputChange = (event) => {
     const newSearchQuery = event.target.value;

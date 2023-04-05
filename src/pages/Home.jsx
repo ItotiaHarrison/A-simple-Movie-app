@@ -12,7 +12,6 @@ export default function Home(movie) {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [upcomingMovies, setUpcomingMovies] = useState([]);
-  const [upcomingSeries, setUpcomingSeries] = useState([]);
   const [actors, setActors] = useState([]);
 
   useEffect(() => {

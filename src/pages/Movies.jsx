@@ -33,7 +33,7 @@ export default function Movies(movie) {
         setError(error.message);
         setLoading(false);
       });
-  }, []);
+  });
 
   const handleSearchInputChange = (event) => {
     const newSearchQuery = event.target.value;
