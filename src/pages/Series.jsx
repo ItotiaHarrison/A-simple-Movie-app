@@ -10,7 +10,7 @@ export default function Series() {
   const options = {
     method: "GET",
     headers: {
-      "X-RapidAPI-Key": "c04ec04ea3mshebd8f228e2a5d68p1a45f2jsndadd7b53bf36",
+      "X-RapidAPI-Key": process.env.REACT_APP_RAPID_API_KEY,
       "X-RapidAPI-Host": "netflix-data.p.rapidapi.com",
     },
   };
